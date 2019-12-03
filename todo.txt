@@ -1,0 +1,56 @@
+//TODO//
+
+order todo list.
+
+//getTime(), getDate(), getDay()//
+//setTime(), setDate(), setDay()//
+//addZero() //add zero to number less then 10 (0-9)
+//setCookie(), getCookie(), checkCookie(), eraseCookie()
+//for setdate(), check if hour and minutes is less then middnight,
+//if not close to middnight don't make changes to date. 
+//skip update the date.
+
+
+
+clock  to do
+
+//TODO:
+//coockies
+//3 buttons (css shape)
+//event lister
+//https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
+
+// todo
+    // create One functio (recive a number less then 9 return 0+number)
+    //
+
+    // hours = addZero(hours);
+    // mins = addZero(mins);
+    // sec = addZero(secs);
+    /* add '0' value in number then smaller then 10 */
+
+
+// function addZero (timeDateValue) {
+//     if (timeDateValue < 10) {
+//         timeDateValue = '0' + timeDateValue;
+//         console.log("timeDateValue  + 0 >>> " + timeDateValue);
+//         return timeDateValue;
+//     } 
+//     else {
+//         console.log("timeDateValue >>> " + timeDateValue);
+//         return timeDateValue;
+//     }   
+// }
+
+
+function refreshData() {
+    console.log(" refreshData() ");
+}
+
+//todo:
+function addZero() {
+    console.log(" addZero() ");
+}
+
+
