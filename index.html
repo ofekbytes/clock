@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>-1-</title>
+    <link rel="stylesheet" href="./clock.css">
+    <script src="./clock.js"></script>
+    <script src="./util.js"></script>
+</head>
+<body>
+
+    Test    
+    <div class="love clockSize" id="getHour">--:--:--</div>     
+    <div class="neon daySize" id="getDay">-dow-</div>
+    <div class="fire dateSize" id="getDate">--/--/----</div>
+
+    <br/>
+    <div> 
+        <button class="love" id="btnlove">love</button>
+        <button class="neon" id="btnNeon">Neon</button>
+        <button class="fire" id="btnfire">fire</button>
+    </div>
+<script>
+    window.onload = function () {
+        setInterval(printTime, 100);
+    };
+
+    
+    /* load events */
+    fnUtilExists();
+    fnLoadAllEvents();
+</script>
+
+</body>
+</html>
