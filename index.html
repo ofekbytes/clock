@@ -11,17 +11,18 @@
 </head>
 <body>
 
-    Test    
+    <div class="neon dateSize" id="getDate">--/--/----</div>
     <div class="neon clockSize" id="getHour">--:--:--</div>     
     <div class="neon daySize" id="getDay">-dow-</div>
-    <div class="neon dateSize" id="getDate">--/--/----</div>
-
+    <!-- <div class="neon btnLine">------</div> -->    
+    
     <br/>
     <div> 
         <button class="love" id="btnlove">love</button>
         <button class="neon" id="btnNeon">Neon</button>
         <button class="fire" id="btnfire">fire</button>
     </div>
+    
 <script>
     window.onload = function () {
         setInterval(printTime, 100);
