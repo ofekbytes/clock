@@ -1,0 +1,72 @@
+/*-----------*/
+/*---phone---*/
+/*-----------*/
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: black;
+        /* color: white; */
+        /* font-size: 15px; */
+    }
+
+    wrapper {
+        padding: 2%;
+    }
+
+
+    .dateSize {
+        font-size: 38px;
+        padding-top: 50px;
+    }
+
+    .clockSize {
+        font-size: 80px; 
+        padding-top: 10px;
+    }
+
+    .daySize {
+        font-size: 38px;
+        padding-top: 10px;
+    }
+
+
+    .btnLine {
+        padding-top:5px;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+
+    .btnGroup {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+
+    #btnlove {
+        padding: 15px 30px;
+        /* color: red; */
+        font-size: 18px;
+        font-weight: bold;
+        background-color: black;
+    }
+
+    #btnNeon {
+        padding: 15px 30px;
+        /* color: red; */
+        font-size: 18px;
+        font-weight: bold;
+        background-color: black;
+    }
+
+    #btnfire {
+        padding: 15px 30px;
+        /* color: red; */
+        font-size: 18px;
+        font-weight: bold;
+        background-color: black;
+    }
+
+}
