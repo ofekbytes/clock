@@ -114,6 +114,13 @@ function fnLoadAllEvents() {
     document.getElementById("btnfire").addEventListener("click", function() {
         console.log("btnfire");
         });
+
+        // document.getElementById("btnlove").addEventListener("mouseover", function() {
+        //     console.log("btnlove - mouseover");
+        // });
+        // document.getElementById("btnlove").addEventListener("mouseout", function() {
+        //     console.log("btnlove - mouseout");
+        // });
         
 }
 
