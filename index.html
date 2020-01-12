@@ -6,10 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>clock</title>
     <link rel="stylesheet" href="./clock.css">
+    <!-- <link rel="stylesheet" href="clock.phone.css"> -->
+    <link rel="stylesheet" href="./clock.pc.css">
+    <link rel="stylesheet" href="./clock.tablet.css">
+    <link rel="stylesheet" href="./clock.phone.css">
+    
     <script src="./clock.js"></script>
     <script src="./util.js"></script>
 </head>
 <body>
+
+<div id="wrapper">
 
     <div class="neon dateSize" id="getDate">--/--/----</div>
     <div class="neon clockSize" id="getHour">--:--:--</div>     
@@ -31,6 +38,7 @@
     <!-- </form> -->
 
 <script>
+
     window.onload = function () {
         setInterval(printTime, 100);
     };
@@ -39,6 +47,7 @@
     /* load events */
     // fnUtilExists();
     fnLoadAllEvents();
+
 </script>
 
 </body>
